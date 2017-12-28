@@ -1,16 +1,11 @@
 #include "MenuLayer.h"
 
+USING_NS_CC;
 
-MenuLayer::MenuLayer(void)
+bool MenuLayer::init()
 {
-}
-
-
-MenuLayer::~MenuLayer(void)
-{
-}
-bool MenuLayer::init(){
-	if(!CCLayer::init()){
+	if(!CCLayer::init())
+	{
 		return false;
 	}
 	return true;
